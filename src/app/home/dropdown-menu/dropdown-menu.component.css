@@ -1,0 +1,18 @@
+/***DROPDOWN LIST***/
+.dropdown{
+    position: relative;
+}
+.dropdown__title{
+    font-size: 3rem;
+}
+.dropdown__list{
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 2rem;
+    transition: max-height 300ms;
+}
+.dropdown:hover .dropdown__list{
+    cursor: pointer;
+    max-height: 20rem;
+}

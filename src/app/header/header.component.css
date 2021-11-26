@@ -1,0 +1,11 @@
+/***HEADER***/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width: 100%;
+}
+.header__logo{
+    width: 10rem;
+}
