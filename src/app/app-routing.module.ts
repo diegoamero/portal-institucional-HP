@@ -4,6 +4,7 @@ import { EstudiantesComponent } from './estudiantes/estudiantes.component';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { HomeComponent } from './home/home.component';
 import { ProfesoresComponent } from './profesores/profesores.component';
+import { DatatableComponent } from '@swimlane/ngx-datatable';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'profesores',
     component:ProfesoresComponent
+  },
+  {
+    path: 'lista',
+    component:DatatableComponent
   }
 ];
 

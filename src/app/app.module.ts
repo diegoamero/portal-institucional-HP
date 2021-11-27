@@ -11,6 +11,8 @@ import { EstudiantesComponent } from './estudiantes/estudiantes.component';
 import { ProfesoresComponent } from './profesores/profesores.component';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { HomeComponent } from './home/home.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { DataTableComponent } from './data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { HomeComponent } from './home/home.component';
     ProfesoresComponent,
     PersonajesComponent,
     HomeComponent,
+    DataTableComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxDatatableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
