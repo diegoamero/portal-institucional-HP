@@ -1,18 +1,53 @@
 /***DROPDOWN LIST***/
 .dropdown{
     position: relative;
+    background-color: var(--bg-color);
+    color: white;
+    border-radius: 2rem;
+    width: 18rem;
 }
 .dropdown__title{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding: 1rem 1rem 1rem 2rem;
+}
+.dropdown__title .arrow{
+    position: absolute;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 .dropdown__list{
     position: absolute;
     max-height: 0;
     overflow: hidden;
+    background-color: var(--bg-color);
     font-size: 2rem;
     transition: max-height 300ms;
+    border-radius: 2rem;
 }
 .dropdown:hover .dropdown__list{
     cursor: pointer;
-    max-height: 20rem;
+    max-height: 30rem;
 }
+.dropdown__list li{
+    width: 18rem;
+    padding: 1rem;
+}
+.dropdown__list .gryffindor{
+    background-color: var(--red);
+}
+.dropdown__list .slytherin{
+    background-color: var(--green);
+}
+.dropdown__list .hufflepuff{
+    background-color: var(--yellow);
+}
+.dropdown__list .ravenclaw{
+    background-color: var(--bg-color);
+}
+.dropdown__list--house{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    width: 18rem;
+}
+

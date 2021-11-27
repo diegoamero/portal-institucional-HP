@@ -1,0 +1,12 @@
+.button{
+    width: 18rem;
+    background-color: var(--yellow);
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.button__ancle{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+}

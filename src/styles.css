@@ -1,5 +1,8 @@
 :root{
-    --color-favoroto: red;
+    --bg-color: #181F2D;
+    --yellow: #C5933E;
+    --red: #9F251C;
+    --green: #135153;
 }
 *{
     padding: 0;
@@ -7,6 +10,14 @@
     box-sizing: border-box;
 }
 html{
-    scroll-behavior: smooth;
     font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./assets/hp-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
 }
